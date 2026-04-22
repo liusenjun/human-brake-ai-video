@@ -28,7 +28,7 @@ The original screenplay is divided into four acts:
 
 | Name | Role | Contribution |
 |------|------|-------------|
-| **Louis** | Project Lead | Act 1: script, storyboard, overall coordination |
+| **Louis Huang（黄柳森）** | Project Lead | Act 1: script, storyboard, overall coordination |
 | **Huang Yishu (黄奕舒)** | Contributor | Act 2-3: chase scene visuals |
 | **Jing Xin (辛怡静)** | Contributor | Act 2-3: chase scene visuals |
 | **Leo Zhu (朱智立)** | Contributor | Act 4: chase finale |
