@@ -1,0 +1,107 @@
+{
+  "0": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "type": "wan"
+    }
+  },
+  "1": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "wan_2.1_vae.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors"
+    }
+  },
+  "3": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors",
+      "weight_dtype": "auto"
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "0",
+        0
+      ],
+      "text": "A wet neon-lit street in Hong Kong at night, cinematic, 8K"
+    }
+  },
+  "5": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "0",
+        0
+      ],
+      "text": "blurry, low quality, watermark, distorted"
+    }
+  },
+  "6": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "ambiance.png"
+    }
+  },
+  "7": {
+    "class_type": "WanFirstLastFrameToVideo",
+    "inputs": {
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "vae": [
+        "1",
+        0
+      ],
+      "width": 640,
+      "height": 480,
+      "length": 81,
+      "batch_size": 1,
+      "start_image": [
+        "6",
+        0
+      ],
+      "end_image": [
+        "6",
+        0
+      ]
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "7",
+        0
+      ],
+      "vae": [
+        "1",
+        0
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "8",
+        0
+      ],
+      "format": "auto",
+      "fps": 24
+    }
+  }
+}
