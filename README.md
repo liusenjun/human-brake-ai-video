@@ -1,12 +1,12 @@
 # Human Brake Plan
 
-> AI Short Film Project | 1-Minute AI Video | Hong Kong Noir
+> AI Short Film Project | Hong Kong Noir
 
 ---
 
 ## About
 
-**Human Brake Plan** is an experimental AI short film (~1 minute), inspired by the screenplay of [Chen Qiufan (陈秋芳)](https://en.wikipedia.org/wiki/Chen_Qiufan). The story follows Robin, a character caught in a night-timeU盘handoff in a Hong Kong Sham Shui Po tea restaurant, which escalates into a chase across the city.
+**Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Chen Qiufan (陈秋芳)](https://en.wikipedia.org/wiki/Chen_Qiufan). The story follows Robin, a character caught in a night-timeU盘handoff in a Hong Kong Sham Shui Po tea restaurant, which escalates into a chase across the city.
 
 The project explores the full AI filmmaking pipeline: **script → storyboard → image-to-video → editing**.
 
@@ -28,7 +28,7 @@ The original screenplay is divided into four acts:
 
 | Name | Role | Contribution |
 |------|------|-------------|
-| **Louis** | Project Lead | Act 1: script, storyboard, overall coordination |
+| **Louis Huang（黄柳森）** | Project Lead | Act 1: script, storyboard, overall coordination |
 | **Huang Yishu (黄奕舒)** | Contributor | Act 2-3: chase scene visuals |
 | **Jing Xin (辛怡静)** | Contributor | Act 2-3: chase scene visuals |
 | **Leo Zhu (朱智立)** | Contributor | Act 4: chase finale |
