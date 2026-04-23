@@ -10,8 +10,6 @@
 
 The project explores the full AI filmmaking pipeline: **script → storyboard → image-to-video → editing**.
 
----
-
 ## 🎬 Final Output
 
 > The final video will be embedded here once complete.
