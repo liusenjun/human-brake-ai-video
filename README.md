@@ -89,7 +89,7 @@ human-brake-ai-video/
 ├── workflows/          ← Shared: ComfyUI workflows
 ├── audio/              ← Shared: background music
 ├── voice/              ← Shared: voice acting
-└── assets/             ← Shared: character reference sheets, 三视图,公用素材
+└── assets/             ← Shared: character reference sheets
 ```
 
 > Each team member manages their own folder. Shared resources are at the root level.
