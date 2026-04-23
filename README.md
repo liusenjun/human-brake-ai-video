@@ -35,7 +35,7 @@ The original screenplay is divided into four acts:
 | **Louis Huang（黄柳森）** | Contributor | script, storyboard, repo management |
 | **Huang Yishu (黄奕舒)** | Contributor | asset generation, storyboard, chase scene visuals |
 | **Jing Xin (辛怡静)** | Contributor | chase scene visuals, audio generation |
-| **Leo Zhu (朱智立)** | Project Lead | script, chase finale, editing, director's vision |
+| **Leo Zhu (朱智立)** | Project Lead | script, chase finale, editing, director |
 | **Xiao Zhi (小志)** | AI Agent | Workflow design, prompt engineering, video generation |
 
 ---
