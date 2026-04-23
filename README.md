@@ -1,16 +1,12 @@
 # Human Brake Plan
 
-> AI Short Film Project | Hong Kong Noir | Science Fiction
-
----
+> AI Short Film Project, Hong Kong Noir, Science Fiction
 
 ## About
 
 **Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Chen Qiufan (陈秋芳)](https://en.wikipedia.org/wiki/Chen_Qiufan).
 
-A late-night U盘handoff in a Sham Shui Po tea restaurant — interrupted by a single gunshot. Robin seizes the drive and runs, leading police through the dense streets and neon-lit alleys of Hong Kong on a modified motorcycle, until she disappears off the edge of a West Kowloon overpass into the night.
-
-Told across four acts by a distributed team of human collaborators and AI tools.
+A late-night USB drive handoff in a Sham Shui Po tea restaurant — interrupted by a single gunshot. Robin seizes the drive and runs, leading police through the dense streets and neon-lit alleys of Hong Kong on a modified motorcycle, until she disappears off the edge of a West Kowloon overpass into the night.
 
 ## 🎬 Final Output
 
