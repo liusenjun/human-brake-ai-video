@@ -4,14 +4,6 @@
 
 ---
 
-## 🎬 Final Output
-
-> The final video will be embedded here once complete.
-
-**Link:** [Coming Soon]()
-
----
-
 ## About
 
 **Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Chen Qiufan (陈秋芳)](https://en.wikipedia.org/wiki/Chen_Qiufan). The story follows Robin, a character caught in a night-time U盘handoff in a Hong Kong Sham Shui Po tea restaurant, which escalates into a chase across the city.
@@ -37,6 +29,12 @@ AI 视频生成 AI Video Generation
 ```
 
 Each act uses a different set of AI tools, enabling comparison and flexibility across the production.
+
+## 🎬 Final Output
+
+> The final video will be embedded here once complete.
+
+**Link:** [Coming Soon]()
 
 ---
 
@@ -142,12 +140,6 @@ human-brake-ai-video/
 - OpenClaw — AI agent collaboration platform
 - Discord — real-time team communication
 - GitHub — project version control
-
----
-
-## How to Contribute
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed step-by-step instructions (in Chinese).
 
 ---
 
