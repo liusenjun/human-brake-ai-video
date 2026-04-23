@@ -32,11 +32,11 @@ The original screenplay is divided into four acts:
 
 | Name | Role | Contribution |
 |------|------|-------------|
-| **Louis Huang（黄柳森）** | Contributor | Act 1: script, storyboard, github repo coordination |
-| **Huang Yishu (黄奕舒)** | Contributor | Act 2-3: chase scene visuals, prompt engineering |
-| **Jing Xin (辛怡静)** | Contributor | Act 2-3: chase scene visuals |
-| **Leo Zhu (朱智立)** | Project Lead | Act 4: chase finale, editing |
-| **Xiao Zhi (小志)** | AI Agent | Workflow design, prompt engineering, video generation |
+| **Louis Huang（黄柳森）** | Project Lead | Act 1: script, storyboard, repo management |
+| **Huang Yishu (黄奕舒)** | Contributor | Act 2-3: asset generation, chase scene visuals |
+| **Jing Xin (辛怡静)** | Contributor | Act 2-3: chase scene visuals, audio generation |
+| **Leo Zhu (朱智立)** | Director | Act 4: chase finale, editing, director's vision |
+| **Xiao Zhi (小志)** | AI Agent | Workflow design, prompt engineering, technical research |
 
 ---
 
@@ -61,13 +61,24 @@ Prompt engineering is the shared skill that ties every stage together. Each act 
 
 ## AI Collaboration
 
-This project uses **OpenClaw** AI Agent **Xiao Zhi (小志)** as a technical collaborator. All collaboration happens through **Discord**.
+This project uses **OpenClaw** AI Agent **Xiao Zhi (小志)** as a technical collaborator, working alongside the team in real-time through **Discord** voice and text.
 
-Xiao Zhi handles:
-- ComfyUI workflow design
+Unlike a passive assistant, Xiao Zhi takes initiative — researching models, debugging workflows, and proposing solutions without being asked. The collaboration model is closer to a junior technical partner than a chatbot.
+
+**What Xiao Zhi handles:**
+- ComfyUI workflow design and debugging
 - Prompt engineering (KLing 3.0, FLUX, Wan 2.2, LTX 2.3)
-- Python/PowerShell scripting for batch video generation
-- Technical research on AI video models
+- Python/PowerShell scripting for batch processing
+- Technical research on AI video models and tools
+- Repository structure and documentation
+
+**Key technical contributions:**
+- Discovered and resolved T2V vs I2V model mismatch causing black output in Wan 2.2
+- Designed the correct Wan 2.2 I2V node chain (UNETLoader → VAELoader → Wan22ImageToVideoLatent → VAEDecode → CreateVideo)
+- Researched and documented LTX 2.3, venetanji/ltx2-comfy-v915 workflows
+- Set up ComfyUI batch processing scripts for multi-shot video generation
+
+All collaboration records are preserved in [openclaw_agent/](openclaw_agent/).
 
 ---
 
