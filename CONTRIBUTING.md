@@ -62,7 +62,8 @@ human-brake-ai-video/
 ├── script/             ← 原始剧本（共用）
 ├── workflows/          ← 技术工作流（共用）
 ├── audio/              ← 配乐（共用）
-└── voice/              ← 配音（共用）
+├── voice/              ← 配音（共用）
+└── assets/             ← 公用素材：角色三视图、参考图等（共用）
 ```
 
 ### 放文件的规则：
@@ -73,6 +74,7 @@ human-brake-ai-video/
 | ComfyUI 工作流、Python 脚本 | `workflows/` |
 | 配乐文件或链接 | `audio/` |
 | 配音文件或链接 | `voice/` |
+| **角色三视图、通用参考图等公用素材** | `assets/` |
 | **你负责的 Act 的分镜图、提示词等** | **你自己的文件夹**（`louis/`、`huangyishu/` 等） |
 
 ### 每个人负责什么：

@@ -16,7 +16,27 @@
 
 **Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Chen Qiufan (陈秋芳)](https://en.wikipedia.org/wiki/Chen_Qiufan). The story follows Robin, a character caught in a night-time U盘handoff in a Hong Kong Sham Shui Po tea restaurant, which escalates into a chase across the city.
 
-The project explores the full AI filmmaking pipeline: **script → storyboard → image-to-video → editing**.
+The project explores the full AI filmmaking pipeline, with each team member working in parallel using their own tools and workflow:
+
+**Production Pipeline**
+
+```
+剧本 Script
+    ↓
+分镜 Storyboard
+    ↓
+参考图 Reference Images  ──→  角色设定 Character Assets (assets/)
+    ↓
+提示词 Prompt Engineering
+    ↓
+AI 视频生成 AI Video Generation
+    ↓
+剪辑合成 Editing + Music + Voice
+    ↓
+成片 Final Output
+```
+
+Each act uses a different set of AI tools, enabling comparison and flexibility across the production.
 
 ---
 
@@ -58,8 +78,8 @@ The original screenplay is divided into four acts:
 
 ### 各 Act 制作流程
 
-- **Act 1（Louis）** — 剧本 → 分镜图 → 提示词 → KLing 视频生成
-- **Act 2-3（黄奕舒 + 辛怡静）** — 追逐场景视觉制作
+- **Act 1（Louis）** — 剧本 → 分镜图（FLUX）→ 提示词 → KLing 3.0 / Wan 2.2 视频生成
+- **Act 2-3（黄奕舒 + 辛怡静）** — 剧本延续 → 分镜 → 参考图（Stable Diffusion v1.5）→ HunyuanVideo 1.5 I2V 视频生成 → Suno 配乐 → 配音剪辑
 - **Act 4（朱智立）** — 追逐尾声制作
 - **AI 协作（小志）** — 通过 Discord 实时协助，全程记录在 [openclaw_agent/](openclaw_agent/)
 
@@ -96,7 +116,8 @@ human-brake-ai-video/
 ├── script/             ← Shared: original screenplay (陈秋芳)
 ├── workflows/          ← Shared: ComfyUI workflows
 ├── audio/              ← Shared: background music
-└── voice/              ← Shared: voice acting
+├── voice/              ← Shared: voice acting
+└── assets/             ← Shared: character reference sheets, 三视图,公用素材
 ```
 
 > Each team member manages their own folder. Shared resources are at the root level.
@@ -109,7 +130,12 @@ human-brake-ai-video/
 - KLing 3.0 — image-to-video (main production tool)
 - FLUX — storyboard image generation
 - Wan 2.2 — local I2V testing (ComfyUI)
+- HunyuanVideo 1.5 — local I2V (腾讯混图, ComfyUI)
 - LTX 2.3 — local I2V testing (ComfyUI)
+- Stable Diffusion v1.5 — reference image generation
+
+**AI Music**
+- Suno — background music generation
 
 **Tools**
 - ComfyUI — node-based video workflow
