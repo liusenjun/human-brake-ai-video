@@ -131,7 +131,7 @@ human-brake-ai-video/
 ├── jing/               ← Act 2-3 (辛怡静)
 ├── leozhu/             ← Act 4 (朱智立)
 │
-├── script/             ← Shared: original screenplay (陈秋芳)
+├── script/             ← Shared: original screenplay
 ├── workflows/          ← Shared: ComfyUI workflows
 ├── audio/              ← Shared: background music
 ├── voice/              ← Shared: voice acting
