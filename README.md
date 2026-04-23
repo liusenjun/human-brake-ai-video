@@ -1,6 +1,6 @@
 # Human Brake Plan
 
-> AI Short Film Project | Hong Kong Noir ｜ Science Fiction
+> AI Short Film Project | Hong Kong Noir | Science Fiction
 
 ---
 
