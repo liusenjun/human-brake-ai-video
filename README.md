@@ -8,27 +8,31 @@
 
 **Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Chen Qiufan (陈秋芳)](https://en.wikipedia.org/wiki/Chen_Qiufan). The story follows Robin, a character caught in a night-time U盘handoff in a Hong Kong Sham Shui Po tea restaurant, which escalates into a chase across the city.
 
-The project explores the full AI filmmaking pipeline, with each team member working in parallel using their own tools and workflow:
+The project explores the full AI filmmaking pipeline, with prompt engineering as the connective thread across every stage:
 
 **Production Pipeline**
 
 ```
 剧本 Script
     ↓
+角色参考图 Character Reference  ──→  assets/（角色三视图、道具等）
+    ↓
+提示词工程 Prompt Engineering
+    ↓
 分镜 Storyboard
     ↓
-参考图 Reference Images  ──→  角色设定 Character Assets (assets/)
+AI 参考图 AI Reference Images
     ↓
-提示词 Prompt Engineering
+AI 视频 AI Video Generation
     ↓
-AI 视频生成 AI Video Generation
+音频配乐 Audio & Music（Suno）
     ↓
-剪辑合成 Editing + Music + Voice
+剪辑 Editing
     ↓
 成片 Final Output
 ```
 
-Each act uses a different set of AI tools, enabling comparison and flexibility across the production.
+Each act uses a different set of AI tools, with prompt engineering as the shared skill tying every stage together.
 
 ## 🎬 Final Output
 
