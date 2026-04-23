@@ -168,13 +168,54 @@ Clone 的意思是：把你在 GitHub 上的仓库下载到你自己电脑上。
 
 ### Step 4：添加或修改文件
 
-现在你可以往仓库里添加你的文件了。
+#### 先搞清楚文件夹结构
 
-**操作步骤：**
+```
+human-brake-ai-video/
+├── louis/              ← Louis · Act 1
+├── huangyishu/        ← 黄奕舒 · Act 2-3
+├── jing/               ← 辛怡静 · Act 2-3
+├── leozhu/             ← 朱智立 · Act 4
+│
+├── script/             ← 原始剧本（共用）
+├── workflows/          ← 技术工作流（共用）
+├── audio/              ← 配乐（共用）
+└── voice/              ← 配音（共用）
+```
 
-1. 打开文件资源管理器，进入 `human-brake-ai-video` 文件夹
-2. 根据你的 Act，找到对应的文件夹（参考下一节"文件夹说明"）
-3. 把你的文件粘贴进去
+**放文件的规则：**
+
+| 如果你的文件是…… | 就放到…… |
+|-----------------|---------|
+| 剧本、原始脚本 | `script/` |
+| ComfyUI 工作流、Python 脚本 | `workflows/` |
+| 配乐文件或链接 | `audio/` |
+| 配音文件或链接 | `voice/` |
+| **你负责的 Act 的分镜图、提示词等** | **你自己的文件夹**（`louis/`、`huangyishu/` 等） |
+
+#### 然后操作
+
+**第一步：进入正确的文件夹**
+
+1. 在你的仓库页面，找到并点击你的文件夹（例如 `huangyishu/`）
+2. 确认进入了文件夹里面，URL 应该类似：
+   `https://github.com/你的用户名/human-brake-ai-video/tree/main/huangyishu`
+3. **现在你在这个文件夹里面了，添加的文件会自动落入这里**
+
+**第二步：添加文件**
+
+1. 点击绿色的 **"Add file"** 按钮
+2. 选择 **"Upload files"**（上传已有文件）或 **"Create new file"**（在网页上写新内容）
+3. **注意：此时你已经在你的文件夹内了，添加的文件会自动落入这个文件夹**
+4. 把文件拖进去，或粘贴内容
+5. 底部写提交说明，例如：`Add Act 2 storyboard images`
+6. 点击 **"Commit changes"**
+
+**如果是添加到公共文件夹（workflows/、audio/ 等）：**
+
+1. 先点击顶部的仓库名称回到根目录
+2. 点击进入对应的公共文件夹（如 `workflows/`）
+3. 再点 **"Add file"** → 操作同上
 
 > **重要**：不要修改根目录下的 README.md 和 CONTRIBUTING.md，除非是 Louis 明确要求的。
 
@@ -269,8 +310,7 @@ human-brake-ai-video/
 ├── script/             ← 原始剧本（共用）
 ├── workflows/          ← 技术工作流（共用）
 ├── audio/              ← 配乐（共用）
-├── voice/              ← 配音（共用）
-└── videos/            ← 视频链接（共用）
+└── voice/              ← 配音（共用）
 ```
 
 ### 每个人负责什么
@@ -310,7 +350,7 @@ huangyishu/
 | `workflows/` | ComfyUI 技术工作流，所有人共用 |
 | `audio/` | 配乐文件（放链接或说明文档） |
 | `voice/` | 配音文件（放链接或说明文档） |
-| `videos/` | 视频文件链接（不放实际大文件） |
+
 
 ---
 
