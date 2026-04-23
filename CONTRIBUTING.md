@@ -34,17 +34,11 @@
 4. 完成验证
 5. 注册完成后**告诉 Louis 你的 GitHub 用户名**
 
-### 1.2 Fork 这个仓库
+### 1.2 接受邀请
 
-Fork 的意思是：把项目复制一份到你自己的 GitHub 账号下。
+当 Louis 在仓库里添加你为 collaborator 后，你会收到一封 GitHub 邮件。打开邮件，点里面的 **Accept invitation** 链接即可。
 
-1. 打开浏览器，访问：https://github.com/liusenjun/human-brake-ai-video
-2. 点击右上角 **Fork** 按钮
-3. 等待几秒，页面跳转到**你账号下**的仓库
-4. 现在 URL 应该类似：`https://github.com/你的用户名/human-brake-ai-video`
-5. ✅ 完成！以后所有修改都在这个仓库里进行
-
-> **提示**：Fork 只需要做一次。之后每次贡献都从你账号下的这个 Fork 开始。
+接受后，你就可以直接访问仓库并上传文件了，不需要 Fork。
 
 ---
 
@@ -94,10 +88,10 @@ human-brake-ai-video/
 
 ## 3. 详细步骤
 
-### Step 1：打开你的仓库
+### Step 1：打开仓库
 
-1. 打开浏览器，进入你的 Fork 仓库：
-   `https://github.com/你的用户名/human-brake-ai-video`
+1. 打开浏览器，直接进入仓库：
+   `https://github.com/liusenjun/human-brake-ai-video`
 
 ---
 
@@ -105,7 +99,7 @@ human-brake-ai-video/
 
 1. 在仓库页面，找到并点击**你的文件夹**（例如 `huangyishu/`）
 2. 确认 URL 变成了类似：
-   `https://github.com/你的用户名/human-brake-ai-video/tree/main/huangyishu`
+   `https://github.com/liusenjun/human-brake-ai-video/tree/main/huangyishu`
 3. ✅ 现在你已经在你的文件夹里面了
 
 ---
@@ -132,42 +126,12 @@ human-brake-ai-video/
 
 ---
 
-### Step 4：发起 Pull Request（申请合并）
+### 之后每次贡献（重复 Step 2-3）
 
-当你完成文件添加后，需要申请把你的修改合并到原始仓库。
-
-1. 在你的仓库页面，你会看到一个黄色的提示条：
-   > **"你的仓库有比主仓库多的提交"**
-   > **[Compare & pull request]** 按钮
-2. 点击 **"Compare & pull request"**
-3. 检查以下是否正确：
-   - `base repository` → `liusenjun/human-brake-ai-video`
-   - `base` → `main`
-   - `head repository` → `你的用户名/human-brake-ai-video`
-   - `compare` → `main`
-4. 标题写清楚这次贡献的内容，例如：`Add Act 2 storyboard images`
-5. 可以留言说明
-6. 点击绿色的 **"Create pull request"** 按钮
-7. ✅ 完成！Louis 会收到通知并审核
-
----
-
-### 如果要添加到公共文件夹（workflows/、audio/ 等）
-
-1. 先点击仓库顶部的 **"human-brake-ai-video"** 回到根目录
-2. 点击进入对应的公共文件夹（例如 `workflows/`）
-3. URL 应该变成：`https://github.com/你的用户名/human-brake-ai-video/tree/main/workflows`
-4. 再执行 **Step 3** 的操作
-
----
-
-### 之后每次贡献（重复 Step 2-4）
-
-1. 打开你的仓库
+1. 打开仓库
 2. 进入你的文件夹
 3. 添加或修改文件
-4. Commit changes
-5. 点 **"Compare & pull request"** → **"Create pull request"**
+4. 点 **"Commit changes"** 即可
 
 ---
 
@@ -209,19 +173,15 @@ human-brake-ai-video/
 
 ---
 
-### Q3：提交 PR 后发现有问题，能撤回吗？
+### Q3：提交后发现有问题，能撤回吗？
 
-可以！在你的 Pull Request 页面，点右上角 **"Close"** 按钮即可关闭，不会影响原始仓库。
+可以！在仓库页面找到那个文件，点击 **"..."** 菜单 → **"Revert"** 即可撤销那次提交。
 
 ---
 
-### Q4：Sync fork 是什么？什么时候需要点？
+### Q4：仓库有更新了怎么办？
 
-如果 Louis 在原始仓库做了更新，你会看到黄色的提示条写着 **"This branch is out of date"**，这时需要：
-
-1. 点 **"Sync fork"** 按钮
-2. 点 **"Update branch"**
-3. 等待更新完成，再继续添加你的文件
+如果 Louis 在仓库里做了更新，你直接刷新页面即可看到最新内容。不需要任何额外操作。
 
 ---
 
