@@ -84,6 +84,8 @@ We set up a Discord group with four teammates and one OpenClaw AI agent. For any
 
 > 📸 [图片占位：Discord 实际协作截图]
 
+---
+
 ## AI Agent Collaboration
 
 This project uses **OpenClaw** AI Agent **Xiao Zhi (小志)** as a technical collaborator, working alongside the team in real-time through **Discord** voice and text.
