@@ -6,17 +6,11 @@
 
 ## About
 
-**Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Chen Qiufan (陈秋芳)](https://en.wikipedia.org/wiki/Chen_Qiufan). The story follows Robin, a character drawn into a night-time U盘handoff in a Sham Shui Po tea restaurant, which escalates into a desperate chase across the streets of Hong Kong.
+**Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Chen Qiufan (陈秋芳)](https://en.wikipedia.org/wiki/Chen_Qiufan).
 
-The film is told across four interconnected acts — each a chapter in Robin's city-wide pursuit, and each produced by a different team member:
+A late-night U盘handoff in a Sham Shui Po tea restaurant — interrupted by a single gunshot. Robin seizes the drive and runs, leading police through the dense streets and neon-lit alleys of Hong Kong on a modified motorcycle, until she disappears off the edge of a West Kowloon overpass into the night.
 
-**Act 1 · 深水埗暗线 (The Sham Shui Po Connection)** — In a late-night tea restaurant, Robin meets an informant to receive a USB drive containing data about "the brake" — a device that could bring down the city's surveillance grid. Before the exchange completes, a shooter guns down the informant. Robin seizes the U盘 and crashes through the glass into the night.
-
-**Acts 2-3 · 香港追逐 (The Hong Kong Chase)** — A high-speed pursuit unfolds across the city's dense streets: wet-market alleys, the Cross-Harbour Tunnel, a fruit wholesale stall, the bustling Mong Kok temple street market, and a narrow electronics district where Robin deploys an EMP pulse to disable pursuing vehicles. The chase climaxes at a unfinished West Kowloon overpass, where Robin launches her motorcycle into the void above Victoria Harbour.
-
-**Act 4 · 货轮对决 (The Cargo Ship Finale)** — Robin lands on a moving cargo ship in the middle of the harbour. As police lights fade on the distant shore, she turns to face her pursuers with a defiant gesture — the brake is in her hands, and the game has only just begun.
-
-The project is an experiment in collaborative AI filmmaking: each act uses a different combination of AI tools (FLUX, Stable Diffusion, KLing 3.0, HunyuanVideo, Suno), with prompt engineering as the shared skill tying every stage together.
+Told across four acts by a distributed team of human collaborators and AI tools.
 
 ## 🎬 Final Output
 
