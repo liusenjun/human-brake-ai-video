@@ -117,12 +117,6 @@ human-brake-ai-video/
 
 ---
 
-## How to Contribute
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed step-by-step instructions (in Chinese).
-
----
-
 ## License
 
 MIT License
