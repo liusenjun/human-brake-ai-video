@@ -48,14 +48,49 @@ The original screenplay is divided into four acts:
 
 Prompt engineering is the shared skill that ties every stage together. Each act uses a different set of AI tools to execute this pipeline.
 
-### 各 Act 制作流程
+### Division of Labour
 
-- **Act 1（Louis）** — 剧本 → 分镜图（FLUX）→ 提示词 → KLing 3.0 / Wan 2.2 视频生成
-- **Act 2-3（黄奕舒 + 辛怡静）** — 剧本延续 → 分镜 → 参考图（Stable Diffusion v1.5）→ HunyuanVideo 1.5 I2V 视频生成 → Suno 配乐 → 配音剪辑
-- **Act 4（朱智立）** — 追逐尾声制作
-- **AI 协作（小志）** — 通过 Discord 实时协助，全程记录在 [openclaw_agent/](openclaw_agent/)
+The project is divided into four acts, each owned by a different contributor. Louis manages the repo and overall structure; Leo Zhu oversees the story's arc as project lead. Each person works independently on their act — from script through to video generation — using their own preferred tools and workflow.
 
-> 📸 [图片占位：Discord 协作截图 / 工作流截图]
+> 📸 [图片占位：各 Act 分工与工具链全景图]
+
+---
+
+### Act 1 · Louis
+
+Responsible for the opening scene: the late-night tea restaurant, the U盘handoff, the gunshot, and Robin's first escape onto the street. Handled script adaptation, shot-by-shot storyboard, prompt engineering, and video generation.
+
+Approach: Wrote the screenplay, generated FLUX storyboard images with detailed cinematic prompts, then used KLing 3.0 for the final video output with local Wan 2.2 testing as a backup pipeline.
+
+> 📸 [图片占位：Act 1 工作流程截图]
+
+---
+
+### Acts 2–3 · Huang Yishu + Jing Xin
+
+Responsible for the full chase sequence across Hong Kong's streets and landmarks. Yishu focused on asset creation and visual reference generation; Jing handled the video work and produced the music.
+
+Approach: Used Stable Diffusion v1.5 to generate reference images for each scene, then ran them through HunyuanVideo 1.5 I2V for video generation. Multiple versions were produced per shot to compare quality and select the best result. Jing created the music separately in Suno.
+
+> 📸 [图片占位：Act 2-3 工作流程截图]
+
+---
+
+### Act 4 · Leo Zhu
+
+Responsible for the closing act and the final edit. Oversaw the cargo ship finale and assembled all four acts into a complete narrative.
+
+Approach: Directed the final act's visuals, then handled post-production editing to ensure continuity across all four acts.
+
+> 📸 [图片占位：Act 4 + 剪辑时间线截图]
+
+---
+
+### Collaboration Model
+
+We set up a Discord group with four teammates and one OpenClaw AI agent. For anything technical — a model that won't load, a workflow that's producing blank output, a tool we haven't used before — we ask the bot directly in the group chat. The bot researches the problem, runs tests, and comes back with answers and solutions.
+
+> 📸 [图片占位：Discord 实际协作截图]
 
 ---
 
