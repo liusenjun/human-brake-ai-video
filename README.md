@@ -60,9 +60,9 @@ Responsible for the opening scene: the late-night tea restaurant, the U盘handof
 
 Approach: Wrote the screenplay, generated FLUX storyboard images with detailed cinematic prompts, then used KLing 3.0 for the final video output with local Wan 2.2 testing as a backup pipeline.
 
-> ![Act 1 Workflow 1](docs/act1_workflow_01.png)
-> ![Act 1 Workflow 2](docs/act1_workflow_02.png)
-> ![Act 1 Workflow 3](docs/act1_workflow_03.png)
+![Act 1 Workflow 1](docs/act1_workflow_01.png)
+![Act 1 Workflow 2](docs/act1_workflow_02.png)
+![Act 1 Workflow 3](docs/act1_workflow_03.png)
 
 ### Acts 2–3 · Huang Yishu + Jing Xin
 
@@ -90,7 +90,7 @@ When all four acts are complete, they are assembled into the final film. Leo Zhu
 
 We set up a Discord group with four teammates and one OpenClaw AI agent. For anything technical — a model that won't load, a workflow that's producing blank output, a tool we haven't used before — we ask the bot directly in the group chat. The bot researches the problem, runs tests, and comes back with answers and solutions.
 
-> ![Discord: Technical collaboration on AI video generation](docs/discord_collab.png)
+![Discord: Technical collaboration on AI video generation](docs/discord_collab.png)
 
 ---
 
