@@ -36,7 +36,7 @@ The original screenplay is divided into four acts:
 | **Huang Yishu (黄奕舒)** | Contributor | asset generation, storyboard, chase scene visuals |
 | **Jing Xin (辛怡静)** | Contributor | chase scene visuals, audio generation |
 | **Leo Zhu (朱智立)** | Project Lead | script, chase finale, editing, director's vision |
-| **Xiao Zhi (小志)** | AI Agent | Workflow design, prompt engineering, video generation, technical research |
+| **Xiao Zhi (小志)** | AI Agent | Workflow design, prompt engineering, video generation |
 
 ---
 
@@ -54,8 +54,6 @@ The project is divided into four acts, each owned by a different contributor. Lo
 
 > 📸 [图片占位：各 Act 分工与工具链全景图]
 
----
-
 ### Act 1 · Louis
 
 Responsible for the opening scene: the late-night tea restaurant, the U盘handoff, the gunshot, and Robin's first escape onto the street. Handled script adaptation, shot-by-shot storyboard, prompt engineering, and video generation.
@@ -63,8 +61,6 @@ Responsible for the opening scene: the late-night tea restaurant, the U盘handof
 Approach: Wrote the screenplay, generated FLUX storyboard images with detailed cinematic prompts, then used KLing 3.0 for the final video output with local Wan 2.2 testing as a backup pipeline.
 
 > 📸 [图片占位：Act 1 工作流程截图]
-
----
 
 ### Acts 2–3 · Huang Yishu + Jing Xin
 
@@ -74,8 +70,6 @@ Approach: Used Stable Diffusion v1.5 to generate reference images for each scene
 
 > 📸 [图片占位：Act 2-3 工作流程截图]
 
----
-
 ### Act 4 · Leo Zhu
 
 Responsible for the closing act and the final edit. Oversaw the cargo ship finale and assembled all four acts into a complete narrative.
@@ -83,8 +77,6 @@ Responsible for the closing act and the final edit. Oversaw the cargo ship final
 Approach: Directed the final act's visuals, then handled post-production editing to ensure continuity across all four acts.
 
 > 📸 [图片占位：Act 4 + 剪辑时间线截图]
-
----
 
 ### Collaboration Model
 
