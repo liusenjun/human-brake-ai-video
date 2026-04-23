@@ -90,7 +90,7 @@ When all four acts are complete, they are assembled into the final film. Leo Zhu
 
 We set up a Discord group with four teammates and one OpenClaw AI agent. For anything technical — a model that won't load, a workflow that's producing blank output, a tool we haven't used before — we ask the bot directly in the group chat. The bot researches the problem, runs tests, and comes back with answers and solutions.
 
-> 📸 [图片占位：Discord 实际协作截图]
+> ![Discord: Bot explains session vs memory](docs/discord_collab_01.png)
 
 ---
 
