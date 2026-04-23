@@ -60,9 +60,9 @@ Responsible for the opening scene: the late-night tea restaurant, the U盘handof
 
 Approach: Wrote the screenplay, generated FLUX storyboard images with detailed cinematic prompts, then used KLing 3.0 for the final video output with local Wan 2.2 testing as a backup pipeline.
 
-> ![Act 1 Workflow 1](../assets/act1_workflow_01.png)
-> ![Act 1 Workflow 2](../assets/act1_workflow_02.png)
-> ![Act 1 Workflow 3](../assets/act1_workflow_03.png)
+> ![Act 1 Workflow 1](assets/act1_workflow_01.png)
+> ![Act 1 Workflow 2](assets/act1_workflow_02.png)
+> ![Act 1 Workflow 3](assets/act1_workflow_03.png)
 
 ### Acts 2–3 · Huang Yishu + Jing Xin
 
