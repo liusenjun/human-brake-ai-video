@@ -8,32 +8,6 @@
 
 **Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Chen Qiufan (陈秋芳)](https://en.wikipedia.org/wiki/Chen_Qiufan). The story follows Robin, a character caught in a night-time U盘handoff in a Hong Kong Sham Shui Po tea restaurant, which escalates into a chase across the city.
 
-The project explores the full AI filmmaking pipeline, with prompt engineering as the connective thread across every stage:
-
-**Production Pipeline**
-
-```
-剧本 Script
-    ↓
-角色参考图 Character Reference  ──→  assets/（角色三视图、道具等）
-    ↓
-提示词工程 Prompt Engineering
-    ↓
-分镜 Storyboard
-    ↓
-AI 参考图 AI Reference Images
-    ↓
-AI 视频 AI Video Generation
-    ↓
-音频配乐 Audio & Music（Suno）
-    ↓
-剪辑 Editing
-    ↓
-成片 Final Output
-```
-
-Each act uses a different set of AI tools, with prompt engineering as the shared skill tying every stage together.
-
 ## 🎬 Final Output
 
 > The final video will be embedded here once complete.
@@ -68,15 +42,11 @@ The original screenplay is divided into four acts:
 
 ## How We Work
 
-### 协作流程
+**Production Pipeline:**
 
-1. **剧本创作** — 由 Louis 负责第一幕的剧本改编和整理
-2. **分镜设计** — 根据剧本生成 19 个镜头的分镜图（使用 FLUX）
-3. **提示词工程** — 为每个镜头撰写 AI 视频生成提示词（KLing 3.0）
-4. **视频生成** — 通过 KLing 3.0 生成各镜头视频（本地 ComfyUI 工作流测试）
-5. **剪辑合成** — 合成最终成片
+> Script → Character Reference → Prompt Engineering → Storyboard → AI Reference Images → AI Video → Audio → Editing → Final Output
 
-> 📸 [图片占位：工作流程示意图]
+Prompt engineering is the shared skill that ties every stage together. Each act uses a different set of AI tools to execute this pipeline.
 
 ### 各 Act 制作流程
 
