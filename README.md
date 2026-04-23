@@ -94,6 +94,12 @@ We set up a Discord group with four teammates and one OpenClaw AI agent. For any
 
 ---
 
+### Integration
+
+When all four acts are complete, they are assembled into the final film. Leo Zhu oversees the edit and the overall narrative arc, ensuring the four acts flow together as one continuous story. Music and voice tracks are layered in during post-production.
+
+---
+
 ## AI Agent Collaboration
 
 This project uses **OpenClaw** AI Agent **Xiao Zhi (小志)** as a technical collaborator, working alongside the team in real-time through **Discord** voice and text.
