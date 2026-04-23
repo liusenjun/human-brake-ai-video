@@ -32,11 +32,11 @@ The original screenplay is divided into four acts:
 
 | Name | Role | Contribution |
 |------|------|-------------|
-| **Louis Huang（黄柳森）** | Project Lead | Act 1: script, storyboard, repo management |
-| **Huang Yishu (黄奕舒)** | Contributor | Act 2-3: asset generation, chase scene visuals |
-| **Jing Xin (辛怡静)** | Contributor | Act 2-3: chase scene visuals, audio generation |
-| **Leo Zhu (朱智立)** | Director | Act 4: chase finale, editing, director's vision |
-| **Xiao Zhi (小志)** | AI Agent | Workflow design, prompt engineering, technical research |
+| **Louis Huang（黄柳森）** | Project Lead | script, storyboard, repo management |
+| **Huang Yishu (黄奕舒)** | Contributor | asset generation, storyboard, chase scene visuals |
+| **Jing Xin (辛怡静)** | Contributor | chase scene visuals, audio generation |
+| **Leo Zhu (朱智立)** | Director | script, chase finale, editing, director |
+| **Xiao Zhi (小志)** | AI Agent | Workflow design, prompt engineering, video generation, technical research |
 
 ---
 
@@ -59,7 +59,7 @@ Prompt engineering is the shared skill that ties every stage together. Each act 
 
 ---
 
-## AI Collaboration
+## AI Agent Collaboration
 
 This project uses **OpenClaw** AI Agent **Xiao Zhi (小志)** as a technical collaborator, working alongside the team in real-time through **Discord** voice and text.
 
