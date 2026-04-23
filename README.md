@@ -4,9 +4,17 @@
 
 ---
 
+## 🎬 Final Output
+
+> The final video will be embedded here once complete.
+
+**Link:** [Coming Soon]()
+
+---
+
 ## About
 
-**Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Chen Qiufan (陈秋芳)](https://en.wikipedia.org/wiki/Chen_Qiufan). The story follows Robin, a character caught in a night-timeU盘handoff in a Hong Kong Sham Shui Po tea restaurant, which escalates into a chase across the city.
+**Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Chen Qiufan (陈秋芳)](https://en.wikipedia.org/wiki/Chen_Qiufan). The story follows Robin, a character caught in a night-time U盘handoff in a Hong Kong Sham Shui Po tea restaurant, which escalates into a chase across the city.
 
 The project explores the full AI filmmaking pipeline: **script → storyboard → image-to-video → editing**.
 
@@ -33,6 +41,29 @@ The original screenplay is divided into four acts:
 | **Jing Xin (辛怡静)** | Contributor | Act 2-3: chase scene visuals |
 | **Leo Zhu (朱智立)** | Contributor | Act 4: chase finale |
 | **Xiao Zhi (小志)** | AI Agent | Workflow design, prompt engineering, video generation |
+
+---
+
+## How We Work
+
+### 协作流程
+
+1. **剧本创作** — 由 Louis 负责第一幕的剧本改编和整理
+2. **分镜设计** — 根据剧本生成 19 个镜头的分镜图（使用 FLUX）
+3. **提示词工程** — 为每个镜头撰写 AI 视频生成提示词（KLing 3.0）
+4. **视频生成** — 通过 KLing 3.0 生成各镜头视频（本地 ComfyUI 工作流测试）
+5. **剪辑合成** — 合成最终成片
+
+> 📸 [图片占位：工作流程示意图]
+
+### 各 Act 制作流程
+
+- **Act 1（Louis）** — 剧本 → 分镜图 → 提示词 → KLing 视频生成
+- **Act 2-3（黄奕舒 + 辛怡静）** — 追逐场景视觉制作
+- **Act 4（朱智立）** — 追逐尾声制作
+- **AI 协作（小志）** — 通过 Discord 实时协助，全程记录在 [openclaw_agent/](openclaw_agent/)
+
+> 📸 [图片占位：Discord 协作截图 / 工作流截图]
 
 ---
 
@@ -65,8 +96,7 @@ human-brake-ai-video/
 ├── script/             ← Shared: original screenplay (陈秋芳)
 ├── workflows/          ← Shared: ComfyUI workflows
 ├── audio/              ← Shared: background music
-├── voice/              ← Shared: voice acting
-└── videos/            ← Shared: video files (links only)
+└── voice/              ← Shared: voice acting
 ```
 
 > Each team member manages their own folder. Shared resources are at the root level.
@@ -86,19 +116,6 @@ human-brake-ai-video/
 - OpenClaw — AI agent collaboration platform
 - Discord — real-time team communication
 - GitHub — project version control
-
----
-
-## Current Progress
-
-- [x] Script (陈秋芳 original + Act 1 breakdown)
-- [x] 19 storyboard images (FLUX, Act 1)
-- [x] KLing 3.0 prompt document (Act 1)
-- [x] Wan 2.2 I2V test videos
-- [ ] KLing 3.0 Act 1 video generation
-- [ ] Act 2-4 visuals
-- [ ] Music & voice acting
-- [ ] Final edit
 
 ---
 
