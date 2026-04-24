@@ -10,9 +10,12 @@ A late-night USB drive handoff in a Sham Shui Po tea restaurant — interrupted 
 
 ## 🎬 Final Output
 
-> The final video will be embedded here once complete.
+> **Demo video temporarily unavailable — this is a commercial project.**
+> Only the thematic poster is available for public reference.
 
-**Link:** [Coming Soon]()
+**Poster:** *(coming soon)*
+
+**Demo Video:** Coming soon
 
 ---
 
