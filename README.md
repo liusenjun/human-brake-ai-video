@@ -40,6 +40,7 @@ The original screenplay is divided into four acts:
 | **Jing Xin (辛怡静)** | Contributor | chase scene visuals, audio generation |
 | **Leo Zhu (朱智立)** | Project Lead | script, chase finale, editing, director |
 | **Xiao Zhi (小志)** | AI Agent | Workflow design, prompt engineering, video generation |
+<img width="2271" height="1279" alt="b11ebbdfa1ce2f2bfb76c1cba662b619" src="https://github.com/user-attachments/assets/b318dacc-d281-414c-a97e-0d5e4452f1e8" />
 
 ---
 
@@ -63,9 +64,9 @@ Responsible for the opening scene: the late-night tea restaurant, the U盘handof
 
 Approach: Wrote the screenplay, generated FLUX storyboard images with detailed cinematic prompts, then used KLing 3.0 for the final video output with local Wan 2.2 testing as a backup pipeline.
 
-> ![Act 1 Workflow 1](docs/act1_workflow_01.png)
-> ![Act 1 Workflow 2](docs/act1_workflow_02.png)
-> ![Act 1 Workflow 3](docs/act1_workflow_03.png)
+![Act 1 Workflow 1](docs/act1_workflow_01.png)
+![Act 1 Workflow 2](docs/act1_workflow_02.png)
+![Act 1 Workflow 3](docs/act1_workflow_03.png)
 
 ### Acts 2–3 · Huang Yishu + Jing Xin
 
@@ -93,7 +94,7 @@ When all four acts are complete, they are assembled into the final film. Leo Zhu
 
 We set up a Discord group with four teammates and one OpenClaw AI agent. For anything technical — a model that won't load, a workflow that's producing blank output, a tool we haven't used before — we ask the bot directly in the group chat. The bot researches the problem, runs tests, and comes back with answers and solutions.
 
-> ![Discord: Technical collaboration on AI video generation](docs/discord_collab.png)
+![Discord: Technical collaboration on AI video generation](docs/discord_collab.png)
 
 ---
 
@@ -134,7 +135,7 @@ human-brake-ai-video/
 ├── jing/               ← Act 2-3 (辛怡静)
 ├── leozhu/             ← Act 4 (朱智立)
 │
-├── script/             ← Shared: original screenplay (陈秋芳)
+├── script/             ← Shared: original screenplay
 ├── workflows/          ← Shared: ComfyUI workflows
 ├── audio/              ← Shared: background music
 ├── voice/              ← Shared: voice acting
