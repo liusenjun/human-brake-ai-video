@@ -4,7 +4,7 @@
 
 ## About
 
-**Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Chen Qiufan (陈楸帆)](https://en.wikipedia.org/wiki/Chen_Qiufan).
+**Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Stanley Chan (陈楸帆)](https://en.wikipedia.org/wiki/Chen_Qiufan).
 
 A late-night USB drive handoff in a Sham Shui Po tea restaurant — interrupted by a single gunshot. Robin seizes the drive and runs, leading police through the dense streets and neon-lit alleys of Hong Kong on a modified motorcycle, until she disappears off the edge of a West Kowloon overpass into the night.
 
