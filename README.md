@@ -37,6 +37,7 @@ The original screenplay is divided into four acts:
 | **Jing Xin (辛怡静)** | Contributor | chase scene visuals, audio generation |
 | **Leo Zhu (朱智立)** | Project Lead | script, chase finale, editing, director |
 | **Xiao Zhi (小志)** | AI Agent | Workflow design, prompt engineering, video generation |
+<img width="2271" height="1279" alt="b11ebbdfa1ce2f2bfb76c1cba662b619" src="https://github.com/user-attachments/assets/b318dacc-d281-414c-a97e-0d5e4452f1e8" />
 
 ---
 
