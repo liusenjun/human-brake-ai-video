@@ -4,7 +4,7 @@
 
 ## About
 
-**Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Chen Qiufan (陈楸帆)](https://en.wikipedia.org/wiki/Chen_Qiufan).
+**Human Brake Plan** is an experimental AI short film, inspired by the screenplay of [Stanley Chan (陈楸帆)](https://en.wikipedia.org/wiki/Chen_Qiufan).
 
 A late-night USB drive handoff in a Sham Shui Po tea restaurant — interrupted by a single gunshot. Robin seizes the drive and runs, leading police through the dense streets and neon-lit alleys of Hong Kong on a modified motorcycle, until she disappears off the edge of a West Kowloon overpass into the night.
 
@@ -12,10 +12,9 @@ A late-night USB drive handoff in a Sham Shui Po tea restaurant — interrupted 
 
 > **Demo video temporarily unavailable — this is a commercial project.**
 > Only the thematic poster is available for public reference.
+<img width="1566" height="873" alt="4a3f96420ca04f958a29da45f6f6aa82" src="https://github.com/user-attachments/assets/277e6f82-50d0-48fa-91d0-8c4f46a49f31" />
+<img width="2560" height="1440" alt="8393045dcfa9d4aaaba3bcb757df0ecb" src="https://github.com/user-attachments/assets/f779888e-951e-499f-abea-ad1973c7c56c" />
 
-**Poster:** *(coming soon)*
-
-**Demo Video:** Coming soon
 
 ---
 
@@ -56,8 +55,6 @@ Prompt engineering is the shared skill that ties every stage together. Each act 
 
 The project is divided into four acts, each owned by a different contributor. Louis manages the repo and overall structure; Leo Zhu oversees the story's arc as project lead. Each person works independently on their act — from script through to video generation — using their own preferred tools and workflow.
 
-> 📸 [图片占位：各 Act 分工与工具链全景图]
-
 ### Act 1 · Louis
 
 Responsible for the opening scene: the late-night tea restaurant, the U盘handoff, the gunshot, and Robin's first escape onto the street. Handled script adaptation, shot-by-shot storyboard, prompt engineering, and video generation.
@@ -74,7 +71,10 @@ Responsible for the full chase sequence across Hong Kong's streets and landmarks
 
 Approach: Used Stable Diffusion v1.5 to generate reference images for each scene, then ran them through HunyuanVideo 1.5 I2V for video generation. Multiple versions were produced per shot to compare quality and select the best result. Jing created the music separately in Suno.
 
-> 📸 [图片占位：Act 2-3 工作流程截图]
+<img width="2215" height="1264" alt="c235586d5ce7e9378ecc6332f499f0e5" src="https://github.com/user-attachments/assets/e96e4e59-6cc3-4e54-9674-8e3406ffb9ea" />
+<img width="1377" height="768" alt="00f4bc340ac15649a0c3911b6e4f8254" src="https://github.com/user-attachments/assets/a7d68742-8ee5-40cc-81de-471cb1bfb452" />
+<img width="833" height="478" alt="ac2940f31a0fb905a59e47adcd845ef0" src="https://github.com/user-attachments/assets/884f5ebe-7967-468b-bc76-d7123f4aa7b8" />
+
 
 ### Act 4 · Leo Zhu
 
@@ -82,13 +82,15 @@ Responsible for the closing act and the final edit. Oversaw the cargo ship final
 
 Approach: Directed the final act's visuals, then handled post-production editing to ensure continuity across all four acts.
 
-> 📸 [图片占位：Act 4 ]
+<img width="2560" height="1305" alt="24e18fdac9b60d9f2abaeeebc3bd36d1" src="https://github.com/user-attachments/assets/7ee2d42a-6f98-4cff-95e9-e9f817fa23c0" />
+
 
 ### Integration · Leo Zhu
 
 When all four acts are complete, they are assembled into the final film. Leo Zhu oversees the edit and the overall narrative arc, ensuring the four acts flow together as one continuous story. Music and voice tracks are layered in during post-production.
 
-> 📸 [图片占位：剪辑时间线截图]
+<img width="2559" height="1539" alt="30c832b4e1328a145382d30863029ecb" src="https://github.com/user-attachments/assets/9dfcc2e0-4ae2-431f-abb1-be0066683636" />
+
 
 ### Collaboration Model
 
